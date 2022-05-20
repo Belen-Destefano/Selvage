@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <title> Selvage - Hand Made | Productos conscientes </title>
+
+        <meta name="keywords" content="Productos conscientes, hand made, ropa tejida , ropa de diseño">
+        <meta name="description" content=" Modelos hechos a mano, desde la consciencia y respeto al medio ambiente, con creatividad y amor en cada pieza." >
+        
+
+
+
+       <!-- FAVICON -->
+       <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+       <link rel="manifest" href="favicon/site.webmanifest">
+
+
+        <!--BOOTSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/responsive.css">
+       
+    
+    </head>
+    <body  onload="init()">
+
+        <header class="header sticky"  >        
+        
+            <nav class="navbar navbar-expand-lg navbar-light">    
+            
+                <div  class="container-fluid" >
+                    
+                    <a class="navbar-brand margen"  href="../index.html"> 
+                        
+                            <h1 class="logoFontA" >SELVAGE</h1>
+                            <h5 class="logoFontB">- HAND MADE -</h5>
+                      
+                    </a>
+
+                    <button style="margin:20px 0px;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div  class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                        <ul  class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active a" aria-current="page" href="#menuProductos">PRODUCTOS</a>
+                        </li>                  
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link a" href="https://www.instagram.com/selvage_handmade/">INSTAGRAM</a>
+                        </li>                 
+                        <li class="nav-item">
+                            <a class="nav-link a" href="#contactoSeccion">CONTACTO</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+           
+        </header>
+
+        <!-- CARRUSEL     -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade paddingSticky" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1500">
+                <img src="images/portadaA.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="images/portadaB.jpg" class="d-block w-100"  alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000" >
+                <img src="images/portadaC.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="7000" >
+                <img src="images/portadaD.jpg" class="d-block w-100" alt="...">
+                <div  class="carousel-caption d-none d-md-block">
+                    <h1 class="tituloB portada">SELVAGE</h1>
+                    <h5 class="tituloB">- HAND MADE -</h5>
+                    <p id="carruselTexto" >Modelos hechos a mano, desde la consciencia y respeto al medio ambiente, con creatividad y amor en cada pieza.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div  id="subtitulo">
+            <h1 class="tituloA portada">SELVAGE</h1>
+            <h5 style="font-weight: 400 !important;" class="tituloRopa">- HAND MADE -</h5>
+            <p style="padding: 1%;; text-align: center; color: #515455;">Modelos hechos a mano, desde la consciencia y respeto al medio ambiente, con creatividad y amor en cada pieza.</p>
+
+            <hr>
+        </div>
+        
+        <!-- CATEGORIAS -->
+        <h1 id="menuProductos" class="tituloA">PRODUCTOS CONSCIENTES</h1>
+        <div class="mainContainer">
+            
+            <div class="col" id="categorias">            
+            </div>    
+        
+            
+
+        </div>
+
+        <!-- QUIEN SOY -->
+        
+        <div id="quienSoy">
+            <div  id="contenedorQuiensoy">
+                
+                <div id="quiesoyContenedorTextos">
+                    <p  style="text-align: justify;"  class=" quiensoyText" >
+                        ♡ SELVAGE ♡ es una palabra en inglés, que quiere decir ORILLO en español. Éste significa, el borde lateral sin terminar, de una pieza del tejido a mano. No es ni el principio, ni el final.
+                        Paradójicamente lo relacione con la vida (seguía enamorandome), pues bien sabrán que no deberíamos vivir del pasado, ni del futuro. Sino del presente, AQUÍ y AHORA.  
+                    </p>  
+                    <div>
+
+                        <div>
+                            <img id="quiensoyimgA" src="images/ovillo.png" alt="">
+                            <img id="quiensoyImgB" src="images/lana.png" alt="">
+                        </div>
+                        <div>
+                            <p style="text-align: justify;" class=" quiensoyText" >
+                                Luego (y como broche de oro) comencé a relacionar la palabra separandola, y lo que más me llamó la atención fueron sus 5 letras principales SELVA (por supuesto, naturaleza en estado puro) y así, entendí que todo tenía que ver con mi propósito y el mensaje que quería transmitir. . ¿Cuál sería? . Desde que empecé con la idea de crear este proyecto, me prometí hacerlo desde la consciencia, respeto al medio ambiente y a los animales. Por eso es que el producto que uso es algodón 100% natural. 🌾
+                            </p>
+                    
+                        </div>
+
+                       
+                    </div>
+                    
+                </div>           
+            </div>
+            
+           
+            
+        </div>
+        
+        
+        <img style="    width: 17%;" class="rounded float-start" src="images/algodon.png" alt="">
+
+       <div id="descripcionProductos">
+           <div id="descripcioncontenedorTexto"  class="container">               
+                
+                
+                <p class=" quiensoyText" style="color: #515455; text-align: center;" >El algodón, es una fibra textil vegetal que crece alrededor de las semillas de la planta de algodón, y es originaria de regiones tropicales y subtropicales . El propósito de realizar las prendas con este producto?; vestirnos libres de crueldad animal y ambiental, usar prendas restauradas y reutilizables. Y así, reducir el consumo, la explotación y contaminación. </p>
+
+                
+            </div>
+            <div id="contenedorFrase">
+                <h2 id="frase">EL PODER DE CREAR EN TUS MANOS</h2>
+              
+            </div>
+
+
+        </div>
+
+        <p class=" quiensoyText " style="text-align: center; color: #515455; font-size: 21px;">Si estas iteresadx en alguno de los diseños unicos de Selvage contactanos</p>
+        <section id="contactoSeccion" >
+           
+            <div class="contactoItem" >
+                <img src="images/mail.png" alt="mail">
+                <p>selvage@gmail.com</p>
+            </div>
+
+            <div class="contactoItem">
+                <img src="images/ubicacion.png" alt="ubicacion">
+                <p>Mar del Plata, Argentina </p>
+            </div>
+
+            <div class="contactoItem" >
+                <img src="images/tel.png" alt="">
+                <p>153698254</p>
+            </div>
+
+            <div class="contactoItem" >
+                <img src="images/envio.png" alt="">
+                <p>Envios a todo el Pais</p>
+            </div>
+           
+        </section>
+        
+
+        
+        <section  id="footer" >
+            <a class="navbar-brand" href="#" ><img  class="logoFooter"  src="../images/logo.png" alt=""></a>
+            <p>Copyright 2022 Selvage, todos los derechos reservados</p>
+        </section>
+             
+
+       
+ 
+
+        <!--SWEETALERT y JQUERY-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>   
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+
+        <!--BOOTSTRAP JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- JS -->
+        <script language="javascript" src="js/main.js" ></script>
+        <script language="javascript" src="classes/carrito.class.js" ></script>    
+        <script language="javascript" src="data/categorias.data.js" ></script>
+        <script language="javascript" src="data/productos.data.js" ></script>
+
+      
+
+       
+    </body>
+</html>
