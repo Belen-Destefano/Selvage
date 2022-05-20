@@ -555,7 +555,9 @@ body {
     font-size: 1em;
     left: 6px; }
   .displayImg {
-    flex-wrap: nowrap; } }
+    flex-wrap: nowrap; }
+  .contenedorProducto {
+    width: 48%; } }
 
 @media only screen and (max-width: 480px) {
   .enlaceCategoria {
