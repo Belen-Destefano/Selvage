@@ -64,7 +64,7 @@ function listarCategorias(){
       
       contenido.innerHTML+=`
       <div onclick="enlaceHtml(${categoria.id})" class="categoriasContent" >
-         <img class="imgCategoria" src="/images/${categoria.slug}.png" alt="${categoria.nombre}">
+         <img class="imgCategoria" src="../images/${categoria.slug}.png" alt="${categoria.nombre}">
          <buttom class="enlaceCategoria">${categoria.nombre}</buttom>
       </div>
       `;
@@ -77,7 +77,7 @@ function listarCategorias(){
 function enlaceHtml(idCategoria) {   
    sessionStorage.setItem("CATEGORIA", JSON.stringify(idCategoria));
    
-   window.location = "../pages/productos.html";
+   window.location = "https://belen-destefano.github.io/Selvage/pages/productos.html";
    
 }
 
