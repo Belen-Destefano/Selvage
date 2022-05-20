@@ -549,6 +549,14 @@ body {
     width: 12em;
     margin: 2%; } }
 
+@media only screen and (max-width: 696px) {
+  .enlaceCategoria {
+    width: 6em;
+    font-size: 1em;
+    left: 6px; }
+  .displayImg {
+    flex-wrap: nowrap; } }
+
 @media only screen and (max-width: 480px) {
   .enlaceCategoria {
     width: 6em;

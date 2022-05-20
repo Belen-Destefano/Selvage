@@ -162,6 +162,23 @@
                                             
 }
 
+@media only screen and (max-width: 696px){
+
+    .enlaceCategoria {
+    
+        width: 6em;
+        font-size: 1em;
+        left: 6px;
+    }
+
+    .displayImg {
+       
+        flex-wrap: nowrap;
+    }
+
+
+}
+
 
 
 
