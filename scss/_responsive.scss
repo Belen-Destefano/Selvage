@@ -168,6 +168,19 @@
 
 
 @media only screen and (max-width: 480px){
+
+    .enlaceCategoria {
+    
+        width: 6em;
+        font-size: 1em;
+        left: 6px;
+    }
+
+    .displayImg {
+       
+        flex-wrap: nowrap;
+    }
+
     #quiensoyimgA {
         margin: 13% 4%;
         width: 84%;
@@ -233,20 +246,23 @@
 
 @media only screen and (max-width: 412px){
 
+
+    .enlaceCategoria {
+        width: 6em;
+        font-size: 2em;
+        left: 14px;
+    }
+    .displayImg {
+       
+        flex-wrap: wrap;
+    }
+
     .imgCategoria {
         width: 89%;
         margin: 4%;
     }
 
-    
-    .enlaceCategoria {
-        
-        bottom: 2em;
-        
-        width: 6em;
-        font-size: 2em;
-        
-    }
+   
 
     #quiensoyImgB {    
         right: 12%;
@@ -349,6 +365,16 @@
 
 
 @media only screen and (max-width: 360px){
+
+    .enlaceCategoria {
+      
+        left: 6px;
+    }
+
+    #carritoAbsolute {
+        padding-left: 33%;
+        height: 128em;
+    }
 
     .imgCategoria {
         width: 97%;
