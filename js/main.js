@@ -64,7 +64,7 @@ function listarCategorias(){
       
       contenido.innerHTML+=`
       <div onclick="enlaceHtml(${categoria.id})" class="categoriasContent" >
-         <img class="imgCategoria" src="../images/${categoria.slug}.png" alt="${categoria.nombre}">
+         <img class="imgCategoria" src="images/${categoria.slug}.png" alt="${categoria.nombre}">
          <buttom class="enlaceCategoria">${categoria.nombre}</buttom>
       </div>
       `;

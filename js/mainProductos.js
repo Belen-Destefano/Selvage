@@ -64,7 +64,7 @@ function listarProductos() {
 		item.classList.add("contenedorProducto");
 
 		item.innerHTML = `<div><h3 class="tituloRopa">${producto.nombre}</h3></div>                      
-                      <img class="imgProductos" src="/images/${producto.slug}.jpg" alt="${producto.nombre}">
+                      <img class="imgProductos" src="../images/${producto.slug}.jpg" alt="${producto.nombre}">
 
                       <div>Precio: $${producto.precio}</div>
                       <div>Descripcion: ${producto.descripcion}</div>
@@ -133,7 +133,7 @@ function imprimirCarrito() {
 		let item = document.createElement("div");
 		item.classList.add("margenCarrito");
 		item.innerHTML = `<hr><div><h4 class="tituloCarrito tituloTotal">${producto.nombre}</h4></div>
-                      <img class=" imgCarrito" src="/images/${producto.slug}.jpg" alt="${producto.nombre}">
+                      <img class=" imgCarrito" src="../images/${producto.slug}.jpg" alt="${producto.nombre}">
                       <div>Precio: $${producto.precio}</div> 
                       <div>Cantidad: ${producto.cantidad}</div>
 
