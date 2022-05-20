@@ -34,7 +34,7 @@ const productos = [
         precio:70,
         descripcion:  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia ea a debitis cum nulla eligendi! Deserunt vitae",
         nombre:"TOP JAZMIN",
-        slug: "topjazmin",
+        slug: "topJazmin",
         
         cantidad: 1,
     },
