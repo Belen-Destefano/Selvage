@@ -77,7 +77,8 @@ function listarCategorias(){
 function enlaceHtml(idCategoria) {   
    sessionStorage.setItem("CATEGORIA", JSON.stringify(idCategoria));
    
-   window.location = "https://belen-destefano.github.io/Selvage/pages/productos.html";
+   window.location = "../pages/productos.html";
+   // window.location = "https://belen-destefano.github.io/Selvage/pages/productos.html";
    
 }
 

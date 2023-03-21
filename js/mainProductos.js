@@ -220,6 +220,8 @@ function botonquitar(producto) {
 	}).then((result) => {
 		if (result.isConfirmed) {
 			carrito.quitarProducto(producto);
+		
+
 			imprimirCarrito();
 			$("#formularioReserva").fadeOut(0);
 		}
@@ -251,23 +253,6 @@ function inputoculto() {
 	nodocarritoFormulario.appendChild(totalMail);
 }
 
-//   NODO CONTENEDOR TOTAL
-// function nodototal(nodoCarrito) {
-// 	const nodoContendorTotal = document.createElement("div");
-// 	nodoContendorTotal.appendChild(document.createElement("hr"));
-// 	// uso metodo de objeto carrito. donde sumo todos los productos multiplicados por sus cantidades
-// 	const total = carrito.totalizar();
-
-// 	const nodoTotal = document.createElement("div");
-// 	nodoTotal.classList.add("divTotal");
-
-// 	nodoTotal.innerHTML = `<a class="aCarrito" href="../pages/productos.html">agregar mas productos</a> <h2 class="tituloCarrito" id="tituloTotal">  TOTAL: $${total}</h2>
-//       <a id="btnContinuarReserva"  class="btn btn-primary btn-sm" onclick="fadeInReserva()" >CONTINUAR RESERVA</a>
-//    `;
-
-// 	nodoContendorTotal.appendChild(nodoTotal);
-// 	nodoCarrito.appendChild(nodoContendorTotal);
-// }
 
 // // ONCLICK DE CONTINUAR RESERVA DENTRO DEL NODO CONTENEDOR TOTAL
 // hace aparecer el formulario que envio a api de mail despues
