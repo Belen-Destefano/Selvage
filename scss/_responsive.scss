@@ -235,10 +235,26 @@
     }
 
     .tituloA {
-        font-size: 36px;
-       
+        // font-size: 36px;
+       display: none;
+    }
+    .tituloRopa {
+        display: none;
     }
     
+    #subP {
+        padding: 4% 2% !important;
+   
+    }
+
+    .carousel-control-prev-icon {
+        display: none;
+    }
+
+    .carousel-control-next {
+        display: none;
+    }
+
     #productos {
         height: 1976px;
     }
